@@ -300,12 +300,16 @@ header {
       font-family: "Open Sans", sans-serif;
       text-align: center;
       /* font-size: 2rem; */
-      width: 100%; }
+      width: 100%;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem; }
     .main .titleAllProduct p {
       font-family: "Open Sans", sans-serif;
       font-style: italic;
       font-size: 1rem;
       margin-top: 0.5rem;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
       text-align: center; }
   .main .titleEachProduct {
     display: flex;
