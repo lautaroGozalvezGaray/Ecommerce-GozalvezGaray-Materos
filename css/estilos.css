@@ -9,6 +9,29 @@ body {
   grid-template-areas: "header" "main" "footer"; }
 
 /*Variables*/
+/*MAPS*/
+/*probando*/
+/*iconos del footer y contacto*/
+.bi-facebook {
+  color: #5162f8; }
+
+.bi-instagram {
+  color: #e06843; }
+
+.bi-twitter {
+  color: #0ac3f1; }
+
+.bi-whatsapp {
+  color: #0cb61a; }
+
+/*maps-get aplicado a titulo principal productos destacados del index*/
+.productDest h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2.5rem;
+  background-color: #eeeeee;
+  width: 80%; }
+
 /*ESTILOS DEL NAV*/
 header {
   grid-area: header;
@@ -52,13 +75,14 @@ header {
     .main .productDest {
       display: flex;
       flex-direction: row;
-      justify-content: center; }
-      .main .productDest h2 {
+      justify-content: center;
+      /* h2 {
         text-align: center;
-        font-family: "Open Sans", sans-serif;
+        font-family: $fontAllPage;
         margin-top: 2.5rem;
-        background-color: #eeeeee;
-        width: 80%; }
+        background-color: $background;
+        width: 80%;
+      } */ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -93,13 +117,14 @@ header {
     .main .productDest {
       display: flex;
       flex-direction: row;
-      justify-content: center; }
-      .main .productDest h2 {
+      justify-content: center;
+      /* h2 {
         text-align: center;
-        font-family: "Open Sans", sans-serif;
+        font-family: $fontAllPage;
         margin-top: 2.5rem;
-        background-color: #eeeeee;
-        width: 80%; }
+        background-color: $background;
+        width: 80%;
+      } */ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: auto;
@@ -112,7 +137,6 @@ header {
         text-align: center;
         margin-top: 1rem; }
       .main .productDestImg img {
-        /* width: 80%; */
         box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
         -webkit-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
         -moz-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
@@ -136,13 +160,14 @@ header {
     .main .productDest {
       display: flex;
       flex-direction: row;
-      justify-content: center; }
-      .main .productDest h2 {
+      justify-content: center;
+      /* h2 {
         text-align: center;
-        font-family: "Open Sans", sans-serif;
+        font-family: $fontAllPage;
         margin-top: 2.5rem;
-        background-color: #eeeeee;
-        width: 80%; }
+        background-color: $background;
+        width: 80%;
+      } */ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: auto;
@@ -299,7 +324,6 @@ header {
     .main .titleAllProduct h1 {
       font-family: "Open Sans", sans-serif;
       text-align: center;
-      /* font-size: 2rem; */
       width: 100%;
       margin-right: 0.5rem;
       margin-left: 0.5rem; }
