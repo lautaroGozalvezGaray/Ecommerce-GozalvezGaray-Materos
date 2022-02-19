@@ -312,69 +312,73 @@ header {
 
 /*MOBILE*/
 @media (max-width: 500px) {
-  .main .titleAllProduct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background-color: #eeeeee;
-    margin-top: 1.5rem;
-    height: 12rem; }
-    .main .titleAllProduct h1 {
-      font-family: "Open Sans", sans-serif;
+  .main {
+    /* display: grid;
+        grid-template-columns: 1fr; */ }
+    .main .titleAllProduct {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      width: 100%;
-      margin-right: 0.5rem;
-      margin-left: 0.5rem; }
-    .main .titleAllProduct p {
-      font-family: "Open Sans", sans-serif;
-      font-style: italic;
-      font-size: 1rem;
-      margin-top: 0.5rem;
-      margin-right: 0.5rem;
-      margin-left: 0.5rem;
-      text-align: center; }
-  .main .titleEachProduct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-    .main .titleEachProduct h2 {
-      text-align: center;
-      font-family: "Open Sans", sans-serif;
-      margin-top: 2.5rem;
+      flex-direction: column;
       background-color: #eeeeee;
-      width: 80%; }
-  .main .allProduct {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: auto;
-    justify-content: center;
-    text-align: center;
-    gap: 1rem;
-    margin-bottom: 1rem; }
-    .main .allProduct h4 {
+      margin-top: 1.5rem;
+      height: 10rem;
+      width: 100%; }
+      .main .titleAllProduct h1 {
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem; }
+      .main .titleAllProduct p {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        text-align: center; }
+    .main .titleEachProduct {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .main .titleEachProduct h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 2.5rem;
+        background-color: #eeeeee;
+        width: 80%; }
+    .main .allProduct {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: auto;
+      justify-content: center;
       text-align: center;
-      font-size: 1rem;
-      font-family: "Open Sans", sans-serif;
-      margin-top: 0.5rem; }
-    .main .allProduct h6 {
-      text-align: center;
-      font-family: "Open Sans", sans-serif; }
-    .main .allProduct div {
-      text-align: center; }
-      .main .allProduct div a {
-        width: 8.3rem;
-        font-size: 0.8rem; }
-    .main .allProduct img {
-      margin-top: 2rem;
-      width: 80%;
-      box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
-      -webkit-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
-      -moz-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85); }
-      .main .allProduct img:hover {
-        transform: scale(1.1, 1.1);
-        border: 2px solid white; } }
+      gap: 1rem;
+      margin-bottom: 1rem; }
+      .main .allProduct h4 {
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 0.5rem; }
+      .main .allProduct h6 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif; }
+      .main .allProduct div {
+        text-align: center; }
+        .main .allProduct div a {
+          width: 8.3rem;
+          font-size: 0.8rem; }
+      .main .allProduct img {
+        margin-top: 2rem;
+        width: 80%;
+        box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
+        -webkit-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85);
+        -moz-box-shadow: 3px 1px 23px 0px rgba(0, 0, 0, 0.85); }
+        .main .allProduct img:hover {
+          transform: scale(1.1, 1.1);
+          border: 2px solid white; } }
 
 /*-----------ESTILOS NUESTROS PRODUCTOS-----------*/
 /*-----------------ESTILOS DE COMO COMPRAR-------------*/

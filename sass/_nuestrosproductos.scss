@@ -145,6 +145,8 @@
 /*MOBILE*/
 @media (max-width: 500px){
     .main{
+        /* display: grid;
+        grid-template-columns: 1fr; */
         .titleAllProduct {
             display: flex;
             justify-content: center;
@@ -153,18 +155,19 @@
             flex-direction: column;
             background-color: $background;
             margin-top: 1.5rem;
-            height: 12rem;
+            height: 10rem;
+            width: 100%;
             h1 {
                 font-family: $fontAllPage;
                 text-align: center;
-                width: 100%;
+                font-size: 1.2rem;
                 margin-right: 0.5rem;
                 margin-left: 0.5rem;
             }
             p {
                 font-family: $fontAllPage;
                 font-style: italic;
-                font-size: 1rem;
+                font-size: 0.8rem;
                 margin-top: 0.5rem;
                 margin-right: 0.5rem;
                 margin-left: 0.5rem;
