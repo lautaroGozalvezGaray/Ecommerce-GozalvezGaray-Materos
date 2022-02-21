@@ -19,6 +19,7 @@
                     font-family: $fontAllPage;
                     font-size: 2rem;
                     background-color:$background;
+                    border-radius: 15px;
                     width: 80%;
                 }
                 p {
@@ -52,13 +53,14 @@
                     font-family: $fontAllPage;
                     font-size: 2rem;
                     background-color: $background;
+                    border-radius: 15px;
                     width: 80%;
                 }
                 p {
                     font-family: $fontAllPage;
                     text-align: justify;
                     font-size: 1.3rem;
-                    width: 50%;
+                    width: 60%;
                 }
             }
         }
@@ -85,15 +87,16 @@
                 gap: 2rem;
                 h2 {
                     font-family: $fontAllPage;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     background-color: $background;
+                    border-radius: 15px;
                     width: 80%;
                 }
                 p {
                     font-family: $fontAllPage;
                     text-align: justify;
-                    font-size: 1.3rem;
-                    width: 50%;
+                    font-size: 1rem;
+                    width: 75%;
                 }
             }
         }

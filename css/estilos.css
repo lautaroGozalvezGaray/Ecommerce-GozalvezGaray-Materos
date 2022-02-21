@@ -35,7 +35,8 @@ body {
   font-family: "Open Sans", sans-serif;
   margin-top: 2.5rem;
   background-color: #eeeeee;
-  width: 80%; }
+  width: 80%;
+  border-radius: 15px; }
 
 /*ESTILOS DEL NAV*/
 header {
@@ -229,6 +230,7 @@ header {
       font-family: "Open Sans", sans-serif;
       margin-top: 2.5rem;
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%; }
   .main .allProduct {
     display: grid;
@@ -285,6 +287,7 @@ header {
       font-family: "Open Sans", sans-serif;
       margin-top: 2.5rem;
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%; }
   .main .allProduct {
     display: grid;
@@ -352,6 +355,7 @@ header {
       font-family: "Open Sans", sans-serif;
       margin-top: 2.5rem;
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%; }
   .main .allProduct {
     display: grid;
@@ -405,6 +409,7 @@ header {
         font-family: "Open Sans", sans-serif;
         font-size: 2rem;
         background-color: #eeeeee;
+        border-radius: 15px;
         width: 80%; }
       .main .howToBuy div p {
         font-family: "Open Sans", sans-serif;
@@ -431,12 +436,13 @@ header {
         font-family: "Open Sans", sans-serif;
         font-size: 2rem;
         background-color: #eeeeee;
+        border-radius: 15px;
         width: 80%; }
       .main .howToBuy div p {
         font-family: "Open Sans", sans-serif;
         text-align: justify;
         font-size: 1.3rem;
-        width: 50%; } }
+        width: 60%; } }
 
 /*MOBILE*/
 @media (max-width: 500px) {
@@ -459,14 +465,15 @@ header {
         gap: 2rem; }
         .main .howToBuy div h2 {
           font-family: "Open Sans", sans-serif;
-          font-size: 2rem;
+          font-size: 1.5rem;
           background-color: #eeeeee;
+          border-radius: 15px;
           width: 80%; }
         .main .howToBuy div p {
           font-family: "Open Sans", sans-serif;
           text-align: justify;
-          font-size: 1.3rem;
-          width: 50%; } }
+          font-size: 1rem;
+          width: 75%; } }
 
 /*-----------------FIN ESTILOS DE COMO COMPRAR-------------*/
 /*-------------------ESTILOS DE NOSOTROS-------------*/
@@ -549,6 +556,7 @@ header {
     margin-top: 2.5rem; }
     .main .contact .contactTitle {
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%;
       height: 35px;
       text-align: center;

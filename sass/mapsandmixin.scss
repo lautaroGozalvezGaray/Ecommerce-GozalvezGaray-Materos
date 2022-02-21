@@ -34,7 +34,8 @@ $estilos:(
     fuente: $fontAllPage,
     margen: 2.5rem,
     fondo: rgb(238, 238, 238),
-    ancho: 80%
+    ancho: 80%,
+    borde: 15px
 );
 .productDest h2{
     text-align: map-get($estilos, centrado );
@@ -42,5 +43,6 @@ $estilos:(
     margin-top: map-get($estilos, margen );
     background-color: map-get($estilos, fondo );
     width: map-get($estilos, ancho );
+    border-radius: map-get($estilos, borde);
 
 }
