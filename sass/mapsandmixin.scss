@@ -1,5 +1,4 @@
 /*MAPS*/
-/*probando*/
 
 /*iconos del footer y contacto*/
 $redes:(
@@ -15,6 +14,18 @@ $redes:(
     }
     
 }
+
+/*mixin sin parametro*/
+
+@mixin display-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.titleEachProduct, .productDest{
+    @include display-center();
+}
+
 
 /*maps-get aplicado a titulo principal productos destacados del index*/
 

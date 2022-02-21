@@ -10,7 +10,6 @@ body {
 
 /*Variables*/
 /*MAPS*/
-/*probando*/
 /*iconos del footer y contacto*/
 .bi-facebook {
   color: #5162f8; }
@@ -23,6 +22,12 @@ body {
 
 .bi-whatsapp {
   color: #0cb61a; }
+
+/*mixin sin parametro*/
+.titleEachProduct, .productDest {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
 
 /*maps-get aplicado a titulo principal productos destacados del index*/
 .productDest h2 {
@@ -71,18 +76,19 @@ header {
 /*---------DESKTOP-----------*/
 @media (min-width: 1024px) {
   .main {
-    grid-area: main; }
-    .main .productDest {
+    grid-area: main;
+    /*.productDest {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      /* h2 {
+      h2 {
         text-align: center;
         font-family: $fontAllPage;
         margin-top: 2.5rem;
         background-color: $background;
         width: 80%;
-      } */ }
+      }
+    }*/ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -113,18 +119,19 @@ header {
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr; }
-    .main .productDest {
+    grid-template-rows: 3fr;
+    /*.productDest {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      /* h2 {
+      h2 {
         text-align: center;
         font-family: $fontAllPage;
         margin-top: 2.5rem;
         background-color: $background;
         width: 80%;
-      } */ }
+      }
+    }*/ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: auto;
@@ -156,18 +163,19 @@ header {
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr; }
-    .main .productDest {
+    grid-template-rows: 3fr;
+    /*.productDest {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      /* h2 {
+      h2 {
         text-align: center;
         font-family: $fontAllPage;
         margin-top: 2.5rem;
         background-color: $background;
         width: 80%;
-      } */ }
+      }
+    }*/ }
     .main .productDestImg {
       display: grid;
       grid-template-columns: auto;
@@ -213,9 +221,9 @@ header {
       font-style: italic;
       margin-top: 0.5rem; }
   .main .titleEachProduct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    /* display: flex;
+            flex-direction: row;
+            justify-content: center; */ }
     .main .titleEachProduct h2 {
       text-align: center;
       font-family: "Open Sans", sans-serif;
@@ -269,9 +277,9 @@ header {
       margin-top: 0.5rem;
       text-align: center; }
   .main .titleEachProduct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    /* display: flex;
+            flex-direction: row;
+            justify-content: center; */ }
     .main .titleEachProduct h2 {
       text-align: center;
       font-family: "Open Sans", sans-serif;
@@ -336,9 +344,9 @@ header {
       margin-left: 0.5rem;
       text-align: center; }
   .main .titleEachProduct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    /* display: flex;
+            flex-direction: row;
+            justify-content: center; */ }
     .main .titleEachProduct h2 {
       text-align: center;
       font-family: "Open Sans", sans-serif;
@@ -582,7 +590,9 @@ header {
     .main .backForm form {
       display: flex;
       flex-direction: column;
-      justify-items: center; } }
+      justify-items: center; }
+    .main .backForm input, .main .backForm textarea, .main .backForm select {
+      text-align: center; } }
 
 /*TABLET*/
 @media (min-width: 500px) and (max-width: 1023px) {
@@ -633,7 +643,9 @@ header {
     .main .backForm form {
       display: flex;
       flex-direction: column;
-      justify-items: center; } }
+      justify-items: center; }
+    .main .backForm input, .main .backForm textarea, .main .backForm select {
+      text-align: center; } }
 
 /*MOBILE*/
 @media (max-width: 500px) {
@@ -689,7 +701,9 @@ header {
     .main .backForm form {
       display: flex;
       flex-direction: column;
-      justify-items: center; } }
+      justify-items: center; }
+    .main .backForm input, .main .backForm textarea, .main .backForm select {
+      text-align: center; } }
 
 /*ESTILOS FOOTER*/
 @media (min-width: 1024px) {
