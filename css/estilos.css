@@ -611,6 +611,7 @@ header {
     margin-top: 2.5rem; }
     .main .contact .contactTitle {
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%;
       height: 30px;
       text-align: center;
@@ -664,6 +665,7 @@ header {
     margin-top: 2.5rem; }
     .main .contact .contactTitle {
       background-color: #eeeeee;
+      border-radius: 15px;
       width: 80%;
       height: 20px;
       text-align: center;
