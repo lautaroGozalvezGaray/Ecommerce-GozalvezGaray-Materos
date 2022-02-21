@@ -46,3 +46,22 @@ $estilos:(
     border-radius: map-get($estilos, borde);
 
 }
+
+/*EXTEND*/
+
+.howToBuy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    gap: 2.5rem;
+}
+.divParragrph{
+    @extend .howToBuy;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}

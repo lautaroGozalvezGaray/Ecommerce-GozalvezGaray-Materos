@@ -38,6 +38,22 @@ body {
   width: 80%;
   border-radius: 15px; }
 
+/*EXTEND*/
+.howToBuy, .divParragrph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  gap: 2.5rem; }
+
+.divParragrph {
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 0;
+  margin-bottom: 0; }
+
 /*ESTILOS DEL NAV*/
 header {
   grid-area: header;
@@ -392,26 +408,26 @@ header {
 /*-----------------ESTILOS DE COMO COMPRAR-------------*/
 /*DESKTOP*/
 @media (min-width: 1024px) {
-  .main .howToBuy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    gap: 2.5rem; }
-    .main .howToBuy div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 2rem; }
-      .main .howToBuy div h2 {
+  .main .howToBuy, .main .divParragrph {
+    /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+            gap: 2.5rem; */ }
+    .main .howToBuy .divParragrph, .main .divParragrph .divParragrph {
+      /* display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 2rem; */ }
+      .main .howToBuy .divParragrph h2, .main .divParragrph .divParragrph h2 {
         font-family: "Open Sans", sans-serif;
         font-size: 2rem;
         background-color: #eeeeee;
         border-radius: 15px;
         width: 80%; }
-      .main .howToBuy div p {
+      .main .howToBuy .divParragrph p, .main .divParragrph .divParragrph p {
         font-family: "Open Sans", sans-serif;
         text-align: justify;
         font-size: 1.3rem;
@@ -419,26 +435,26 @@ header {
 
 /*TABLET*/
 @media (min-width: 500px) and (max-width: 1023px) {
-  .main .howToBuy {
+  .main .howToBuy, .main .divParragrph {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     gap: 2.5rem; }
-    .main .howToBuy div {
+    .main .howToBuy div, .main .divParragrph div {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
       gap: 2rem; }
-      .main .howToBuy div h2 {
+      .main .howToBuy div h2, .main .divParragrph div h2 {
         font-family: "Open Sans", sans-serif;
         font-size: 2rem;
         background-color: #eeeeee;
         border-radius: 15px;
         width: 80%; }
-      .main .howToBuy div p {
+      .main .howToBuy div p, .main .divParragrph div p {
         font-family: "Open Sans", sans-serif;
         text-align: justify;
         font-size: 1.3rem;
@@ -450,26 +466,26 @@ header {
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr; }
-    .main .howToBuy {
+    .main .howToBuy, .main .divParragrph {
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
       gap: 2.5rem; }
-      .main .howToBuy div {
+      .main .howToBuy div, .main .divParragrph div {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 2rem; }
-        .main .howToBuy div h2 {
+        .main .howToBuy div h2, .main .divParragrph div h2 {
           font-family: "Open Sans", sans-serif;
           font-size: 1.5rem;
           background-color: #eeeeee;
           border-radius: 15px;
           width: 80%; }
-        .main .howToBuy div p {
+        .main .howToBuy div p, .main .divParragrph div p {
           font-family: "Open Sans", sans-serif;
           text-align: justify;
           font-size: 1rem;
