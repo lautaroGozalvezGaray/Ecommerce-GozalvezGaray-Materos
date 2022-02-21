@@ -483,8 +483,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin: 3rem;
-    width: 90%; }
+    margin: 3rem; }
     .mainConsejo .iframeVideo {
       display: flex;
       align-self: center; }
